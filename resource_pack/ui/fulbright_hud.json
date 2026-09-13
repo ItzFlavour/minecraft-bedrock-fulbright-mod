@@ -1,0 +1,64 @@
+{
+  "namespace": "fulbright",
+  "fulbright_hud": {
+    "type": "panel",
+    "anchor_from": "bottom_right",
+    "anchor_to": "bottom_right",
+    "offset": [-75, -25],
+    "size": [60, 60],
+    "controls": [
+      {
+        "fulbright_panel": {
+          "type": "panel",
+          "size": [60, 60],
+          "background": true,
+          "layer": 10,
+          "controls": [
+            {
+              "background_panel": {
+                "type": "image",
+                "texture": "fulbright:fulbright_bg",
+                "size": [60, 60]
+              }
+            },
+            {
+              "switch_toggle": {
+                "type": "button",
+                "size": [50, 30],
+                "offset": [5, 10],
+                "button_mappings": [
+                  {
+                    "from_button_id": "button.menu_select",
+                    "to_button_id": "fulbright.toggle"
+                  }
+                ],
+                "controls": [
+                  {
+                    "toggle_text": {
+                      "type": "label",
+                      "text": "Fulbright",
+                      "color": [1, 1, 1, 1],
+                      "anchor_from": "center",
+                      "anchor_to": "center"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "status_indicator": {
+                "type": "label",
+                "text": "ON",
+                "color": [0, 1, 0, 1],
+                "size": [30, 15],
+                "offset": [15, 42],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

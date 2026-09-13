@@ -1,0 +1,16 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": ["ItzFlavour"],
+    "license": "MIT",
+    "url": "https://github.com/ItzFlavour/minecraft-bedrock-fulbright-mod"
+  },
+  "modules": [
+    {
+      "description": "Fulbright Behavior Pack",
+      "type": "behavior",
+      "uuid": "87654321-4321-8765-4321-876543218765",
+      "version": [1, 0, 0]
+    }
+  ]
+}
